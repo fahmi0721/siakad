@@ -1,0 +1,50 @@
+/* reset webkit search .search input browser style */
+.search input {
+	outline: none;
+}
+.search input[type=search] {
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	font-family: inherit;
+	font-size: 100%;
+}
+.search input::-webkit-search-decoration,
+.search input::-webkit-search-cancel-button {
+	display: none; /* remove the search and cancel icon */
+}
+
+.tombolsearch{
+padding: 2.8px;
+float:right;
+background:#4a8bc2;
+border:none;
+color:#fff;
+}
+/* search .search input field */
+.search input[type=search] {
+	border: solid 1px #4a8bc2;
+	padding: 5px;
+	width: 55px;
+	float:right;
+
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+.search input[type=search]:focus {
+	width: 200px;
+	background-color: #fff;
+	border-color: #6dcff6;
+	
+	-webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+	box-shadow: 0 0 5px rgba(109,207,246,.5);
+}
+
+/* placeholder */
+.search input:-moz-placeholder {
+	color: #999;
+}
+.search input::-webkit-.search input-placeholder {
+	color: #999;
+}

@@ -1,0 +1,124 @@
+.tabel th{
+background:#5c96ff;
+color:#f8f8f8;
+font-family:calibri;
+padding:10px;
+text-align:center;
+border:1px solid #fff;
+}
+
+.tabel td{
+font-family:calibri;
+padding:8px;
+border:1px solid #fff;
+}
+
+.tabel tr:hover td{
+background:#d7ebf9;
+}
+
+.warnagenap{ background:#ecf2f6;}
+.warnaganjil{ background:#f8f8f8;} 
+
+.tombol{
+background:#4a8bc2;
+color:#fff;
+font-weight:bold;
+border:none;
+padding:5px;
+}
+
+.tombol:hover{
+background:#94cef7;
+color:#fff;
+font-weight:bold;
+border:none;
+padding:5px;
+}
+
+.textboxid{
+width:400px;
+height:25px;
+background:#faff75;
+border:1px solid #4a8bc2;
+}
+
+.textboxid:focus{
+width:400px;
+height:25px;
+background:#faff75;
+box-shadow:0 0 5px #4a8bc2;
+border:1px solid #4a8bc2;
+}
+
+.textbox{
+width:600px;
+height:25px;
+border:1px solid #4a8bc2;
+}
+
+.textbox:focus{
+box-shadow:0 0 5px #4a8bc2;
+border:1px solid #4a8bc2;
+}
+
+.textbox1{
+width:200px;
+height:25px;
+border:1px solid #4a8bc2;
+}
+
+.textbox1:focus{
+box-shadow:0 0 5px #4a8bc2;
+border:1px solid #4a8bc2;
+}
+
+.textbox2{
+width:300px;
+height:25px;
+border:1px solid #4a8bc2;
+}
+
+.textbox2:focus{
+box-shadow:0 0 5px #4a8bc2;
+border:1px solid #4a8bc2;
+}
+
+.pilih{
+width:100px;
+height:25px;
+border:1px solid #4a8bc2;
+}
+
+.pilih:focus{
+box-shadow:0 0 5px #4a8bc2;
+border:1px solid #4a8bc2;
+}
+
+.area{
+width:400px;
+height:70px;
+border:1px solid #4a8bc2;
+}
+
+.area:focus{
+box-shadow:0 0 5px #4a8bc2;
+border:1px solid #4a8bc2;
+}
+
+.sukses{
+background:#7fff9a;
+padding:5px;
+border:1px solid #1dca41;
+}
+
+.gagal{
+background:#ff7b87;
+padding:5px;
+border:1px solid #ea182c;
+}
+
+.select{
+padding:2px;
+border:1px solid #4a8bc2;
+}
